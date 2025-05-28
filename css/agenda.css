@@ -16,7 +16,7 @@
 .event-list {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 }
 
 .event {
@@ -35,12 +35,12 @@
 .event-date {
   background-color: #004aad;
   color: white;
-  padding: 20px 18px;
+  padding: 20px 5px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 90px;
+  min-width: 180px;
   font-weight: 700;
   user-select: none;
 }
