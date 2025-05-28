@@ -26,7 +26,7 @@ header {
   justify-content: center; /* centraliza horizontalmente */
   align-items: center;
   flex-wrap: wrap;
-  gap: 462px;
+  gap: 23%;
   position: relative; /* importante para posicionar o hamburger */
 }
 
@@ -323,8 +323,8 @@ header nav ul li a:hover {
 /* Seu responsivo já existente */
 @media (max-width: 1024px) {
   header {
-    padding: 20px 5%;
-    gap: 120px;
+    padding: 20px 1%;
+    gap: 200px;
   }
 
   .hero {

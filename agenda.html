@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Casa Da Benção | Ressaca</title>
+    <title>Casa Da Benção | Agenda</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="agenda.css" />
-    <link rel="shortcut icon" href="img/ChatGPT Image 26 de mai. de 2025, 13_30_46.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="img/ChatGPT Image 26 de mai. de 2025, 13_30_46.png"
+      type="image/x-icon"
+    />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -23,10 +28,10 @@
       <nav>
         <ul>
           <li><a href="index.html">Início</a></li>
-          <li><a href="#">Sobre</a></li>
+          <li><a href="sobrePage.html">Sobre</a></li>
           <li><a href="agenda.html">Agenda</a></li>
           <li><a href="#">Serviços</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="https://wa.me/5511989539307" target="_blank" onclick="mensagem()">Contato</a></li>
         </ul>
       </nav>
       <div class="hamburger" onclick="toggleMenu()">
@@ -36,7 +41,7 @@
       </div>
     </header>
 
-   <main class="agenda-page">
+    <main class="agenda-page">
       <h1>Agenda</h1>
 
       <section class="event-list">
@@ -67,14 +72,5 @@
         <!-- Pode adicionar mais eventos aqui -->
       </section>
     </main>
-
-    <script>
-      function toggleMenu() {
-        const nav = document.querySelector("nav");
-        const hamburger = document.querySelector(".hamburger");
-        nav.classList.toggle("active");
-        hamburger.classList.toggle("toggle");
-      }
-    </script>
   </body>
 </html>
